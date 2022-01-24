@@ -1,7 +1,7 @@
 {
   "name": "gloves",
   "version": "1.0.0",
-  "description": "Open AI concierge for Flow ecosystem. ",
+  "description": "OpenAI concierge for the Flow ecosystem.",
   "author": "Nuxt.js Team",
   "private": true,
   "scripts": {
@@ -12,7 +12,8 @@
     "post-update": "yarn upgrade --latest"
   },
   "dependencies": {
-    "nuxt": "^2.15.0"
+    "nuxt": "^2.15.0",
+    "openai": "2.0.1"
   },
   "keywords": []
 }
