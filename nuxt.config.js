@@ -14,7 +14,14 @@ export default {
         content: "Official Nuxt.js starter for CodeSandBox"
       }
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
+    link: [
+      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+      {
+        rel: "stylesheet",
+        type: "text/css",
+        href: "https://unpkg.com/@picocss/pico@latest/css/pico.min.css"
+      }
+    ]
   },
 
   // Auto import components: https://go.nuxtjs.dev/config-components

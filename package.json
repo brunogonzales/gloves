@@ -1,5 +1,5 @@
 {
-  "name": "gloves",
+  "name": "theo",
   "version": "1.0.0",
   "description": "OpenAI concierge for the Flow ecosystem.",
   "author": "Nuxt.js Team",
@@ -12,6 +12,7 @@
     "post-update": "yarn upgrade --latest"
   },
   "dependencies": {
+    "md-2-json": "2.0.0",
     "nuxt": "^2.15.0",
     "openai": "2.0.1"
   },
